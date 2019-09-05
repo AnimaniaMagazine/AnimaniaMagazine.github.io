@@ -2,6 +2,7 @@ body{
   background-image: url('../imgs/bg_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #0c1013;
 }
 .first-col{
   color: white;
