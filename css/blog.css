@@ -36,7 +36,7 @@ body{
 }
 
 .connecting-thing{
-    border-left: 1px dotted rgb(71, 71, 71);
+    border-left: 1px dashed rgb(71, 71, 71);
     height: 20px;
     margin-left: -20rem;
     
@@ -112,7 +112,7 @@ body{
     }
 
     .connecting-thing{
-        border-left: 1px dotted rgb(71, 71, 71);
+        border-left: 1px dashed rgb(71, 71, 71);
         height: 20px;
         margin-left: -15rem;
         
@@ -138,7 +138,7 @@ body{
     }
 
     .connecting-thing{
-        border-left: 1px dotted rgb(71, 71, 71);
+        border-left: 1px dashed rgb(71, 71, 71);
         height: 20px;
         margin-left: -15rem;
         
@@ -164,7 +164,7 @@ body{
     }
 
     .connecting-thing{
-        border-left: 1px dotted rgb(71, 71, 71);
+        border-left: 1px dashed rgb(71, 71, 71);
         height: 20px;
         margin-left: -15rem;
         
@@ -190,7 +190,7 @@ body{
     }
 
     .connecting-thing{
-        border-left: 1px dotted rgb(71, 71, 71);
+        border-left: 1px dashed rgb(71, 71, 71);
         height: 20px;
         margin-left: -15rem;
         
@@ -216,7 +216,7 @@ body{
     }
 
     .connecting-thing{
-        border-left: 1px dotted rgb(71, 71, 71);
+        border-left: 1px dashed rgb(71, 71, 71);
         height: 20px;
         margin-left: -15rem;
         
