@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url('./fonts/Hacen-Algeria-Bd.ttf');
+
+    }
+
+.custom-font{
+    font-family: 'CustomFont', sans-serif;
+}
+body{
+    font-family: 'Changa', sans-serif;
+    background-color: #000;
+}
+
+#blog-section{
+    margin-top:6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.thread{
+    border: 1px solid  rgb(71, 71, 71);
+    text-align: right;
+    height: auto;
+    transition: ease-in-out 0.2s;
+}
+.thread-content{
+    margin:1rem;
+}
+
+.thread-cover{
+    object-fit: cover;
+}
+
+.connecting-thing{
+    border-left: 1px dotted rgb(71, 71, 71);
+    height: 20px;
+    margin-left: -20rem;
+    
+}
+
+/* BTN */
+.btn{
+    border-radius: 0;
+    padding: .375rem 198px;
+}
+.btn-home{
+    color: #fff;
+    background-color: #007bff00;
+    border-color: #007bff;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    
+}
+.back-to-home a:hover{
+    color:#fff;
+}
+.btn-home:hover{
+    background-color: #007bff;
+    border-color: #007bff;
+    color:#000;
+}
+
+
+/* Media */
+@media only screen and (max-width: 600px) {
+    .thread-cover img{
+        width: 80%;
+        
+    }
+    .thread{
+        width: 450px;
+
+    }
+    .thread h1{
+        font-size: 1.5rem;
+    }
+    .thread p{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .thread-cover img{
+        width: 60%;
+        
+        
+    }
+    .thread{
+        width:600px;
+    }
+}
