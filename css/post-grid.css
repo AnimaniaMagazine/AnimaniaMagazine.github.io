@@ -87,3 +87,123 @@ body{
     margin-left: 20rem;
     
 }
+
+@media (max-width:460px)
+{
+    .one-grid{
+        /* margin-top:1rem; */
+        border: 1px solid  rgb(71, 71, 71);
+        width: 400px;
+        height: 128px;
+        transition: ease-in-out 0.2s;
+    }
+
+    .connecting-thing{
+        border-left: 1px dotted rgb(71, 71, 71);
+        height: 20px;
+        margin-left: 15rem;
+        
+    }
+
+}
+
+@media(max-width:414px)
+{
+    .btn{
+        border-radius: 0;
+        padding: .375rem 175px;
+    }
+}
+
+@media(max-width:411px)
+{
+    .btn{
+        border-radius: 0;
+        padding: .375rem 175px;
+    }
+    .grid-cover{
+        object-fit: cover;
+        width: 225px;
+    }
+    .grid-cover img{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width: 375px)
+{
+    .one-grid{
+        /* margin-top:1rem; */
+        border: 1px solid  rgb(71, 71, 71);
+        width: 350px;
+        height: 130px;
+        transition: ease-in-out 0.2s;
+    }
+    .btn{
+        border-radius: 0;
+        padding: .375rem 150px;
+    }
+    
+}
+
+@media (max-width:360px)
+{
+    .one-grid{
+        /* margin-top:1rem; */
+        border: 1px solid  rgb(71, 71, 71);
+        width: 350px;
+        height: 128px;
+        transition: ease-in-out 0.2s;
+    }
+    .btn{
+        border-radius: 0;
+        padding: .375rem 150px;
+    }
+    .grid-cover{
+        object-fit: cover;
+        width: 225px;
+    }
+    .grid-cover img{
+        width: 100%;
+        float: left;
+    }
+
+
+}
+
+@media (max-width:320px)
+{
+    .one-grid{
+        /* margin-top:1rem; */
+        border: 1px solid  rgb(71, 71, 71);
+        width:250px;
+        height: 120px;
+        transition: ease-in-out 0.2s;
+    }
+    .btn{
+        border-radius: 0;
+        padding: .375rem 100px;
+    }
+    .grid-content p{
+        font-size: 0.6rem;
+    }
+    .grid-content span{
+        font-size: 0.8rem;
+    }
+    .grid-cover{
+        object-fit: cover;
+        width: 145px;
+    }
+    .grid-cover img{
+        width: 100%;
+        float: left;
+    }
+
+    .connecting-thing{
+        border-left: 1px dotted rgb(71, 71, 71);
+        height: 20px;
+        margin-left: 10rem;
+        
+    }
+}

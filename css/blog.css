@@ -92,3 +92,133 @@ body{
         width:600px;
     }
 }
+
+@media(max-width:414px)
+{
+    .thread{
+        width: 375px;
+    }
+    .thread p{
+        font-size: .9rem;
+    }
+
+    .btn{
+        border-radius: 0;
+        padding: .375rem 165px;
+    }
+
+    .thread-content{
+        margin:0.8rem;
+    }
+
+    .connecting-thing{
+        border-left: 1px dotted rgb(71, 71, 71);
+        height: 20px;
+        margin-left: -15rem;
+        
+    }  
+}
+
+@media(max-width:411px)
+{
+    .thread{
+        width: 375px;
+    }
+    .thread p{
+        font-size: .9rem;
+    }
+
+    .btn{
+        border-radius: 0;
+        padding: .375rem 165px;
+    }
+
+    .thread-content{
+        margin:0.8rem;
+    }
+
+    .connecting-thing{
+        border-left: 1px dotted rgb(71, 71, 71);
+        height: 20px;
+        margin-left: -15rem;
+        
+    }
+}
+
+@media (max-width:375px)
+{
+    .thread{
+        width: 350px;
+    }
+    .thread p{
+        font-size: .7rem;
+    }
+
+    .btn{
+        border-radius: 0;
+        padding: .375rem 140px;
+    }
+
+    .thread-content{
+        margin:0.8rem;
+    }
+
+    .connecting-thing{
+        border-left: 1px dotted rgb(71, 71, 71);
+        height: 20px;
+        margin-left: -15rem;
+        
+    }
+}
+
+@media (max-width:360px)
+{
+    .thread{
+        width: 325px;
+    }
+    .thread p{
+        font-size: .7rem;
+    }
+
+    .btn{
+        border-radius: 0;
+        padding: .375rem 140px;
+    }
+
+    .thread-content{
+        margin:0.8rem;
+    }
+
+    .connecting-thing{
+        border-left: 1px dotted rgb(71, 71, 71);
+        height: 20px;
+        margin-left: -15rem;
+        
+    }
+}
+
+@media(max-width:320px)
+{
+    .thread{
+        width: 310px;
+    }
+    .thread p{
+        font-size: .6rem;
+    }
+
+    .btn{
+        border-radius: 0;
+        padding: .375rem 130px;
+    }
+
+    .thread-content{
+        margin:0.8rem;
+    }
+
+    .connecting-thing{
+        border-left: 1px dotted rgb(71, 71, 71);
+        height: 20px;
+        margin-left: -15rem;
+        
+    }
+}
